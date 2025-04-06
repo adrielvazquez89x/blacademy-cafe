@@ -48,7 +48,7 @@ function generarContenidoCafe() {
         cafeDiv.classList.add("container", "cafe-div");
         cafeDiv.innerHTML = `
                                 <div>
-                                    <h2>${cafe.name}</h2><p>Descripción del ${cafe.name}.</p>
+                                    <h2>${cafe.name}</h2>
                                     <p>${cafe.description}</p>
                                 </div>
                                 <div class="cafe-img-container">
